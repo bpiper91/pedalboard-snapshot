@@ -1,0 +1,94 @@
+:root {
+    --red: #ff6666;
+    --pink: #ffbbbb;
+    --tan: #cc9966;
+    --orange: #ff9900;
+    --yellow: #ffdd00;
+    --green: #00ff00;
+    --teal: #00ffcc;
+    --blue: #00ddff;
+    --purple: #9999ff;
+    --white: #ffffff;
+    --gray: #ababab;
+    --black: #333333;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    color: black;
+    background-color: #dddddd;
+}
+
+/* begin pedal color classes */
+.red {
+    background-color: var(--red);
+    color: black;
+}
+.pink {
+    background-color: var(--pink);
+    color: black;
+}
+.tan {
+    background-color: var(--tan);
+    color: black;
+}
+.orange {
+    background-color: var(--orange);
+    color: black;
+}
+.yellow {
+    background-color: var(--yellow);
+    color: black;
+}
+.green {
+    background-color: var(--green);
+    color: black;
+}
+.teal {
+    background-color: var(--teal);
+    color: black;
+}
+.blue {
+    background-color: var(--blue);
+    color: black;
+}
+.purple {
+    background-color: var(--purple);
+    color: black;
+}
+.white {
+    background-color: var(--white);
+    color: black;
+}
+.gray {
+    background-color: var(--gray);
+    color: black;
+}
+.black {
+    background-color: var(--black);
+    color: white;
+}
+/* end pedal color classes */
+
+.board {
+    background-color: black;
+    clear: both;
+    max-width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+}
+
+.pedal {
+    border-radius: 5px;
+    overflow-wrap: anywhere;
+    overflow: hidden;
+    height: 45px;
+    width: 25px;
+}

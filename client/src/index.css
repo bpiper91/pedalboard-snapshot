@@ -1,13 +1,127 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root {
+  --red: #ff6666;
+  --pink: #ffbbbb;
+  --tan: #cc9966;
+  --orange: #ff9900;
+  --yellow: #fff873;
+  --green: #00ff00;
+  --teal: #00ffcc;
+  --blue: #00ddff;
+  --purple: #9999ff;
+  --white: #ffffff;
+  --gray: #ababab;
+  --black: #333333;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  color: black;
+  background-color: #dddddd;
+}
+
+/* begin pedal color classes */
+.red {
+  background-color: var(--red);
+  color: black;
+}
+.pink {
+  background-color: var(--pink);
+  color: black;
+}
+.tan {
+  background-color: var(--tan);
+  color: black;
+}
+.orange {
+  background-color: var(--orange);
+  color: black;
+}
+.yellow {
+  background-color: var(--yellow);
+  color: black;
+}
+.green {
+  background-color: var(--green);
+  color: black;
+}
+.teal {
+  background-color: var(--teal);
+  color: black;
+}
+.blue {
+  background-color: var(--blue);
+  color: black;
+}
+.purple {
+  background-color: var(--purple);
+  color: black;
+}
+.white {
+  background-color: var(--white);
+  color: black;
+}
+.gray {
+  background-color: var(--gray);
+  color: black;
+}
+.black {
+  background-color: var(--black);
+  color: white;
+}
+/* end pedal color classes */
+
+.snapshot {
+  margin: 10px auto;
+}
+
+.snapshot:not(:first-child) {
+  border-top: 1px solid black;
+  padding-top: 30px;
+}
+
+.board {
+  background-color: black;
+  max-width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  padding: 1rem;
+}
+
+.pedal {
+  overflow-wrap: anywhere;
+  overflow: hidden;
+  border: 3px solid black;
+  border-radius: 14%;
+}
+
+.pedal:hover {
+  border: none;
+  border-radius: 10%;
+}
+
+.pedal-focus {
+  border: 4px solid #ffdd00;
+  border-radius: 10%;
+}
+
+.size-b {
+  height: 72px;
+  width: 40px;
+}
+
+.size-bb {
+  height: 72px;
+  width: 65px;
+}
+
+.size-x {
+  height: 76px;
+  width: 88px;
 }
